@@ -23,7 +23,7 @@ final class Init
 			Core\Sidebar::class,
 			Setup\Setup::class,
 			Setup\Menus::class,
-			Setup\Enqueue2::class,
+			Setup\Enqueue::class,
 			Custom\PostTypes::class,
 			Custom\Admin::class,
 			Custom\Extras::class,
