@@ -8,7 +8,7 @@ namespace App\Setup;
 
 
 
-class Enqueue2
+class Enqueue
 {
     /**
      * register default hooks and actions for WordPress
