@@ -151,7 +151,7 @@ class Enqueue
     private function get_version($version = null)
     {
         $ver = ($version) ? $version : '1.0.0';
-        return (APP_ENV === 'development') ? time() : $ver;
+        return (getenv( 'APP_ENV' ) === 'development') ? time() : $ver;
     }
 
     public function add_type_module_attribute($tag, $handle, $src)

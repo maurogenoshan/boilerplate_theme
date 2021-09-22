@@ -7,5 +7,3 @@ function crb_loads() {
         App\Init::register_services();
     endif;
 }
-
-define('APP_ENV', 'development');
