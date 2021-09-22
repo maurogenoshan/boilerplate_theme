@@ -55,7 +55,7 @@ if (! function_exists('mix')) {
 	{
 		if (! $manifestDirectory) {
 			//Setup path for standard AWPS-Folder-Structure
-			$manifestDirectory = "assets/dist/";
+			$manifestDirectory = "dist/";
 		}
 		static $manifest;
 		if (! starts_with($path, '/')) {
