@@ -79,7 +79,7 @@ class Gutenberg
 		
 	}
 
-	private function load_styles()
+	public function load_styles()
 	{
 		$this->styles = [
 			[
