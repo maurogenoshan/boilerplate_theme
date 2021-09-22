@@ -5,7 +5,7 @@
  * @package genosha
  */
 
-namespace App\Api\Callbacks;
+namespace App\Callbacks;
 
 
 /**

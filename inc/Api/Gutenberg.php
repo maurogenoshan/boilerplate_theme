@@ -8,7 +8,7 @@ namespace App\Api;
 
 use Carbon_Fields\Block;
 use Carbon_Fields\Field;
-use App\Api\Callbacks\GutenbergCallbacks;
+use App\Callbacks\GutenbergCallbacks;
 
 /**
  * Gutenberg clase

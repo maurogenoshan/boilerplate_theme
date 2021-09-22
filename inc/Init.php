@@ -27,6 +27,7 @@ final class Init
 			Custom\PostTypes::class,
 			Custom\Admin::class,
 			Custom\Extras::class,
+			Custom\RestApi::class,
 			Api\Customizer::class,
 			Api\Gutenberg::class,
 			Api\Widgets\TextWidget::class
